@@ -1,14 +1,30 @@
-h1{
+.dark-background{
     background-color: #1F2937;
-    color: #E5E7EB;
+}
+
+.hero-main{
+    color: #F9FAF8;
+    font-weight: bolder;
     font-size: 48px;
 }
-h2{
+
+.hero-secondary{
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.header{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.signn-in{
     background-color: #3882F6;
     color: #1F2937;
     font-size: 36px;
 }
-h3{
+
+.main{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
