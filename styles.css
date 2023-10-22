@@ -2,6 +2,10 @@
     background-color: #1F2937;
 }
 
+.flex-container div{
+    background-color: #1F2937;
+}
+
 .hero-main{
     color: #F9FAF8;
     font-weight: bolder;
