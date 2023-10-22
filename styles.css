@@ -18,14 +18,26 @@
     font-size: 24px;
 }
 
-.signn-in{
+.button-color{
     background-color: #3882F6;
     color: #1F2937;
     font-size: 36px;
 }
 
-.main{
+.information-header{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quote-background{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
+}
+
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: italic;
 }
