@@ -2,5 +2,14 @@ h1{
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 48px;
-
+}
+h2{
+    background-color: #3882F6;
+    color: #1F2937;
+    font-size: 36px;
+}
+h3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
 }
