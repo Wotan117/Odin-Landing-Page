@@ -3,13 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
 }
 
 .box {
-    width: 200px;
-    height: 50px;
-    background-color: pink;
+    background-color: red;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -23,10 +20,12 @@
 .box-a2,
 .box-a3,
 .box-a4 {
-    width: 90px;
-    height: 40px;
-    background-color: #E5E7EB;
+    background-color: pink;
     margin: 5px;
+}
+
+.box-aa{
+    flex-direction:row
 }
 
 .box-b {
@@ -34,7 +33,6 @@
 }
 
 .box-b1 {
-    height: 120px;
     background-color: aqua;
     margin: 5px;
 }
@@ -42,28 +40,20 @@
 .box-b2,
 .box-b3,
 .box-b3 {
-    width: 90px;
-    height: 40px;
     background-color: antiquewhite;
     border: 5px #1F2937;
     margin: 5px;
 }
 .box-c1 {
-    width: 150px;
-    height: 60px;
     background-color: bisque;
 }
 .box-d1 {
-    width: 180px;
-    height: 80px;
     background-color: #3882F6;
     display: flex
 }
 
 .box-d1a,
 .box-d1b {
-    width: 70px;
-    height: 60px;
     background-color: aqua;
     margin: 5px;
 }
