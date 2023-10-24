@@ -25,7 +25,11 @@
 }
 
 .box-aa{
-    flex-direction:row
+    display:flex;
+}
+
+.box-ab {
+    display:flex;
 }
 
 .box-b {
@@ -37,13 +41,15 @@
     margin: 5px;
 }
 
-.box-b2,
-.box-b3,
-.box-b3 {
+.box-b2 {
     background-color: antiquewhite;
-    border: 5px #1F2937;
-    margin: 5px;
+    display: flex;
 }
+
+.box-b2-prduct {
+    border: #1F2937;
+}
+
 .box-c1 {
     background-color: bisque;
 }
