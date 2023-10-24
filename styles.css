@@ -44,10 +44,12 @@
 .box-b2 {
     background-color: antiquewhite;
     display: flex;
+    margin: 10px;
 }
 
-.box-b2-prduct {
-    border: #1F2937;
+.box-b2-product {
+    border: 4px #63c060;
+    margin: 4px;
 }
 
 .box-c1 {
