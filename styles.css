@@ -6,14 +6,15 @@
 }
 
 .box {
+    display:flex;
     background-color: red;
     margin: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box-a {
+    display:flex;
     flex-direction: column;
 }
 
@@ -30,50 +31,59 @@
 .box-a2,
 .box-a3,
 .box-a4 {
+    display:flex;
     background-color: pink;
     margin: 5px;
 }
 .box-a2 {
+    display:flex;
     background-color: red;
     border: 4px solid indigo;
 }
 
 .item {
     /*place holder*/
+    display:flex;
     width: 60px;
     height: 60px;
 }
 
 .box-b {
+    display:flex;
     flex-direction: column;
 }
 
 .box-b1 {
+    display:flex;
     background-color: aqua;
     margin: 5px;
 }
 
 .box-b2 {
+    display:flex;
     background-color: antiquewhite;
-    display: flex;
     margin: 10px;
 }
 
 .box-b2-product {
+    display:flex;
     border: 4px #63c060;
     margin: 4px;
 }
 
 .box-c1 {
+    display:flex;
     background-color: bisque;
 }
 .box-d1 {
+    display:flex;
     background-color: #3882F6;
     display: flex
 }
 
 .box-d1a,
 .box-d1b {
+    display:flex;
     background-color: aqua;
     margin: 5px;
 }
