@@ -44,27 +44,24 @@
     justify-content: center;
 }
 
-.box-b {
+.second-quater {
     display:flex;
     flex-direction: column;
 }
 
-.box-b1 {
+.information {
     display:flex;
     background-color: aqua;
     margin: 5px;
 }
 
-.box-b2 {
+.product-list {
     display:flex;
-    background-color: antiquewhite;
-    margin: 10px;
 }
 
-.box-b2-product {
-    display:flex;
-    border: 4px #63c060;
-    margin: 4px;
+.product {
+    margin: 10px;
+
 }
 
 .box-c1 {
@@ -100,7 +97,7 @@
 
 .hero-secondary {
     size: 18px;
-    color: #E5E7EB;
+    color: red;
 }
 
 .header-logo-size {
