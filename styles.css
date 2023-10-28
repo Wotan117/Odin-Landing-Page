@@ -64,7 +64,7 @@
 
 }
 
-.box-c1 {
+.quote {
     display:flex;
     background-color: bisque;
 }
@@ -74,13 +74,11 @@
     display: flex
 }
 
-.box-d1a,
-.box-d1b {
+.last-quater-left{
     display:flex;
     background-color: aqua;
     margin: 5px;
 }
-
 
 /*colors and style*/
 
@@ -102,6 +100,16 @@
 
 .header-logo-size {
     font-size: 24px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 4px #F9FAF8;
 }
 
 .zero {
