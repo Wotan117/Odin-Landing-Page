@@ -1,17 +1,18 @@
-/*position*/
 
 .container {
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937;
-    color: #F9FAF8;
 }
+
 
 .top-quater {
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .top-quater-head{
@@ -86,8 +87,22 @@
     justify-content: center;
 }
 
+.product-combo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.picture {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+}
+
 .product {
     margin: 20px;
+    justify-items: center;
 
 }
 
