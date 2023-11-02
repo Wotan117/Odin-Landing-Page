@@ -6,8 +6,12 @@
     justify-content: center;
 }
 
-
 .top-quater {
+    background-color: #1F2937;
+
+}
+
+.top-quater-container {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +21,13 @@
 
 .top-quater-head{
     display:flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .top-quater-head-links {
@@ -80,6 +90,7 @@
     color: #1F2937;
     font-size: 36px;
     justify-content: center;
+    font-weight: bolder;
 }
 
 .product-list {
@@ -91,7 +102,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
 }
 
 .frame {
@@ -104,7 +115,7 @@
 .product {
     margin: 20px;
     justify-items: center;
-
+    text-align: center;
 }
 
 .third-quater {
@@ -131,6 +142,18 @@
     justify-content: flex-end;
 }
 
+.thor {
+    font-weight: bolder;
+}
+
+.last-quater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
 .last-quater-container {
     display: flex;
     flex-direction: row;
@@ -138,6 +161,10 @@
     color: #F9FAF8;
     align-items: center;
     justify-content: center;
+    border: solid 50px #3882F6;
+    gap: 70px;
+    border-radius: 8px;
+    width: 700px;
 }
 
 .last-quater-left{
@@ -149,11 +176,6 @@
 .hero-secondary {
     size: 18px;
     color: red;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
 }
 
 .signup {
