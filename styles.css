@@ -8,7 +8,8 @@
 
 .top-quater {
     background-color: #1F2937;
-
+    border: solid 4px red;
+    flex: 1 1 auto;
 }
 
 .top-quater-container {
@@ -17,6 +18,7 @@
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    border: solid 5px green;
 }
 
 .top-quater-head{
@@ -82,6 +84,7 @@
 .second-quater {
     display:flex;
     flex-direction: column;
+    border: solid 4px orange;
 }
 
 .inforamtion {
