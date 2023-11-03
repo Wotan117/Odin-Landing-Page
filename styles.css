@@ -1,15 +1,5 @@
-
-.container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .top-quater {
     background-color: #1F2937;
-    border: solid 4px red;
-    flex: 1 1 auto;
 }
 
 .top-quater-container {
@@ -18,7 +8,6 @@
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    border: solid 5px green;
 }
 
 .top-quater-head{
@@ -47,6 +36,7 @@
 .top-quater-bottom {
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .top-quater-bottom-text {
@@ -68,8 +58,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
     color: #F9FAF8;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .top-quater-image{
@@ -79,12 +71,12 @@
     width: 400px;
     height: 150px;
     align-items: center;
+    background-color: grey;
 }
 
 .second-quater {
     display:flex;
     flex-direction: column;
-    border: solid 4px orange;
 }
 
 .inforamtion {
@@ -123,14 +115,14 @@
 
 .third-quater {
     background-color: #E5E7EB;
-
-}
-
-.quote-full {
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.quote-full {
+    border: solid 4px purple;
 }
 
 .quote {
@@ -138,15 +130,18 @@
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    border: solid 4px red;
 }
 
 .odin {
     display: flex;
     justify-content: flex-end;
+    border: solid 4px green;
 }
 
 .thor {
     font-weight: bolder;
+    border: solid 4px blue;
 }
 
 .last-quater {
